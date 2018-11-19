@@ -1,0 +1,14 @@
+.Dime {
+    width: 75px;
+    height: 75px;
+    background-color: gray;
+    border-radius: 100%;
+    border: 2px;
+    border-color: #666;
+    border-style: solid;
+    text-align: center;
+}
+
+.Dime-text {
+    padding-top: 40%;
+}

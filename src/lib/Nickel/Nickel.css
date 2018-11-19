@@ -1,0 +1,14 @@
+.Nickel {
+    width: 100px;
+    height: 100px;
+    background-color: #888;
+    border-radius: 100%;
+    border: 2px;
+    border-color: #777;
+    border-style: solid;
+    text-align: center;
+}
+
+.Nickel-text {
+    padding-top: 40%;
+}
