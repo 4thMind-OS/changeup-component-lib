@@ -1,0 +1,14 @@
+.Quarter {
+    width: 100px;
+    height: 100px;
+    background-color: #999;
+    border-radius: 100%;
+    border: 2px;
+    border-color: #888;
+    border-style: solid;
+    text-align: center;
+}
+
+.Quarter-text {
+    padding-top: 40%;
+}
