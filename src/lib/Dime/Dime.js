@@ -5,7 +5,7 @@ const Dime = () => {
     return (
         <div className="Dime">
             <div className="Dime-text">
-                5¢
+                10¢
             </div>
         </div>
     )
