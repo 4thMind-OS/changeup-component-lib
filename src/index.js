@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from "react-dom";
-import { Nickel, Quarter, Dime, Bounty, Description } from "./lib";
+import { Nickel, Quarter, Dime, Bounty, Description, LostBounty } from "./lib";
 
 const App = () => (
   <div style={{ width: 640, margin: "15px auto" }}>
@@ -9,8 +9,10 @@ const App = () => (
     <Bounty>
       <Nickel />
       <Quarter />
-      <Dime />
     </Bounty>
+    <LostBounty>
+      <Dime />
+    </LostBounty>
   </div>
 );
 
