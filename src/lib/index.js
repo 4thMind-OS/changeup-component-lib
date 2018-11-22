@@ -6,4 +6,5 @@ import Bounty from "./Bounty/Bounty"
 import Description from "./Description/Description"
 import LostBounty from "./LostBounty/LostBounty"
 import Title from "./Title/Title"
-export { Input, Nickel, Quarter, Dime, Bounty, Description, LostBounty, Title };
+import TaskSummary from "./TaskSummary/TaskSummary"
+export { Input, Nickel, Quarter, Dime, Bounty, Description, LostBounty, Title, TaskSummary };
