@@ -1,5 +1,8 @@
 .Bounty {
     width: 100%;
     text-align: center;
-    background-color: lightblue;
+    background-color: lightgreen;
+}
+p {
+    margin: 0px;
 }
