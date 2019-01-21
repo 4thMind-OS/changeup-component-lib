@@ -1,0 +1,10 @@
+.tasks-list-root {
+    background-color: #aaa;
+}
+
+.task {
+    background-color: #aaf;
+    border-radius: 10%;
+    margin: 5px;
+    width: 50%;
+}
