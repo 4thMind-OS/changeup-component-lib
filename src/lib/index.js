@@ -8,4 +8,5 @@ import LostBounty from "./LostBounty/LostBounty"
 import Title from "./Title/Title"
 import TaskSummary from "./TaskSummary/TaskSummary"
 import TasksList from "./TODAY_view/TasksList/TasksList"
-export { TasksList, Input, Nickel, Quarter, Dime, Bounty, Description, LostBounty, Title, TaskSummary };
+import ItemView from "./TODAY_view/ItemView/ItemView"
+export { ItemView, TasksList, Input, Nickel, Quarter, Dime, Bounty, Description, LostBounty, Title, TaskSummary };
