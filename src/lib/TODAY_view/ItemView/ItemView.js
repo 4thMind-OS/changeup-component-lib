@@ -1,10 +1,10 @@
 import React from 'react'
 import './ItemView.css'
 
-const ItemView = () => {
+const ItemView = (props) => {
     return (
         <div className="ItemView">
-            <h1>Title of Item</h1>
+            <h1>This is item {props.number}</h1>
             <div>here is a description</div>
         </div>
         

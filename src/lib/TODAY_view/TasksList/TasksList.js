@@ -1,16 +1,28 @@
 import React from 'react'
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import './TasksList.css'
 
-const TasksList = (props) => {
-    return (
-        <div className="tasks-list-root">
-            <ul>
-                <li className="task">{props.tasks[0]}</li>
-                <li className="task">{props.tasks[1]}</li>
-                <li className="task">{props.tasks[2]}</li>
-            </ul>
-        </div>
-    )
+class TasksList extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+    render() {
+        return (
+            <div className="tasks-list-root">
+                <ul>
+                    <Link to="/taskOne">
+                        <li className="task">{this.props.tasks[0]}</li>
+                    </Link>
+                    <Link to="/taskTwo">
+                        <li className="task">{this.props.tasks[1]}</li>
+                    </Link>
+                    <Link to="/taskThree">
+                        <li className="task">{this.props.tasks[2]}</li>
+                    </Link>
+                </ul>
+            </div>
+    )}
+    
 }
 
 export default TasksList
